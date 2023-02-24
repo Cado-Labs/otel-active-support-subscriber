@@ -1,0 +1,24 @@
+inherit_gem:
+  rubocop-config-umbrellio: lib/rubocop.yml
+
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 3.0.0
+
+RSpec/EmptyLineAfterHook:
+  Enabled: false
+
+Naming/RescuedExceptionsVariableName:
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: false
+
+Style/HashConversion:
+  Exclude:
+    - spec/**/*_spec.rb
+
+# NOTE: gem-specific limitation of commonly used gem-code-loading practices
+Naming/FileName:
+  Exclude:
+    - lib/otel-active-support-subscriber.rb
