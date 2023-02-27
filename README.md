@@ -16,24 +16,26 @@ Helper for the gem "opentelemetry-ruby". Subscribe to active support events and 
 ## Installation
 
 ```ruby
+# --- from GitHub ---
 gem 'otel-active-support-subscriber', github: "Cado-Labs/otel-active-support-subscriber"
+# --- or ---
+gem 'otel-active-support-subscriber'
 ```
 
 ```shell
 bundle install
 # --- or ---
-gem install specific_install
-gem specific_install https://github.com/Cado-Labs/otel-active-support-subscriber.git
+gem install otel-active-support-subscriber
 ```
 
 ```ruby
-require 'otel-active-support-subscriber'
+require 'otel/active-support-subscriber'
 ```
 
 ## Usage
 
 ```ruby
-::OtelActiveSupportSubscriber.configure do |config|
+::Otel::ActiveSupportSubscriber.configure do |config|
   config.subscribe_to = [/.*/, "/sql/", "sql.sequel"]
 end
 ```

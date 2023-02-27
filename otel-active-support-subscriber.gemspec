@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/otel_active_support_subscriber/version"
+require_relative "lib/otel/active_support_subscriber/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "otel-active-support-subscriber"
-  spec.version       = OtelActiveSupportSubscriber::VERSION
+  spec.version       = Otel::ActiveSupportSubscriber::VERSION
   spec.authors       = ["Alexander Starovojtov"]
   spec.email         = ["starovojtov.alexander@gmail.com"]
 

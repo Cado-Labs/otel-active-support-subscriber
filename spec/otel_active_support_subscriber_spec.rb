@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe OtelActiveSupportSubscriber do
+RSpec.describe Otel::ActiveSupportSubscriber do
   def init
-    OtelActiveSupportSubscriber.configure do |config|
+    Otel::ActiveSupportSubscriber.configure do |config|
       config.subscribe_to = subscribe_to
     end
   end
