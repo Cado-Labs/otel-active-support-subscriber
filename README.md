@@ -29,7 +29,7 @@ gem install otel-active-support-subscriber
 ```
 
 ```ruby
-require 'otel/active-support-subscriber'
+require 'otel-active-support-subscriber'
 ```
 
 ## Usage
