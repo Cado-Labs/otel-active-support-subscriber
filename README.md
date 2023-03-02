@@ -1,5 +1,5 @@
 # Active support subscriber for Opentelemetry 
-# &middot; <a target="_blank" href="https://github.com/Cado-Labs"><img src="https://github.com/Cado-Labs/cado-labs-logos/raw/main/cado_labs_badge.svg" alt="Supported by Cado Labs" style="max-width: 100%; height: 20px"></a> &middot; [![Coverage Status](https://coveralls.io/repos/github/Cado-Labs/otel-active-support-subscriber/badge.svg?branch=master)](https://coveralls.io/github/Cado-Labs/otel-active-support-subscriber?branch=master)
+# &middot; <a target="_blank" href="https://github.com/Cado-Labs"><img src="https://github.com/Cado-Labs/cado-labs-logos/raw/main/cado_labs_badge.svg" alt="Supported by Cado Labs" style="max-width: 100%; height: 20px"></a> &middot; [![Coverage Status](https://coveralls.io/repos/github/Cado-Labs/otel-active-support-subscriber/badge.svg?branch=master)](https://coveralls.io/github/Cado-Labs/otel-active-support-subscriber?branch=master) &middot; [![Gem Version](https://badge.fury.io/rb/otel-active-support-subscriber.svg)](https://badge.fury.io/rb/otel-active-support-subscriber)
 
 Helper for the gem "opentelemetry-ruby". Subscribe to active support events and add context active support events to current span.
 
